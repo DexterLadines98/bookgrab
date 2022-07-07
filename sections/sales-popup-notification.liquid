@@ -10,7 +10,7 @@
         duration: 3000,
         destination: "",
         newWindow: true,
-        avatar: "",
+        avatar: "{{ product.featured_image | img_url: 'medium' }}",
         close: true,
         gravity: "bottom",
         position: "left",
