@@ -480,42 +480,57 @@
         "title": "Partner's List"
       }
     },
-    "1657171127e2ec8f70": {
+    "165717268573871219": {
       "type": "testimonials",
       "blocks": {
-        "165717112727718467-0": {
-          "type": "quote",
+        "1657172685f5d20141-0": {
+          "type": "column",
           "settings": {
-            "quote": "<p>Products is good. I really liked it.. 5 stars for me<\/p>",
-            "author": "Vanessa",
-            "position": "Customer",
-            "avatar": "shopify:\/\/shop_images\/user.png"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "165717112727718467-1": {
-          "type": "quote",
+        "1657172685f5d20141-1": {
+          "type": "column",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author’s name",
-            "position": ""
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "165717112727718467-2": {
-          "type": "quote",
+        "1657172685f5d20141-2": {
+          "type": "column",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author’s name",
-            "position": ""
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "165717112727718467-0",
-        "165717112727718467-1",
-        "165717112727718467-2"
+        "1657172685f5d20141-0",
+        "1657172685f5d20141-1",
+        "1657172685f5d20141-2"
       ],
       "settings": {
-        "title": "Testimonials"
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -532,6 +547,6 @@
     "165709324904eb8e08",
     "1657163114f13193db",
     "1657166194ae8e20a8",
-    "1657171127e2ec8f70"
+    "165717268573871219"
   ]
 }
