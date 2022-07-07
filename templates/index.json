@@ -352,7 +352,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/user.jpg",
-            "title": "Love it ....",
+            "title": "\" Love it .... \"",
             "text": "<p>Books is well <\/p>",
             "link_label": "",
             "link": ""
