@@ -14,12 +14,22 @@
   }
 </style>  
 
+{%- capture varNameArray -%}
+{%- for block in section.blocks -%}
+	{%- assign product = block.settings.selectedProduct -%}
+	{%- assign varName = product.handle | truncate: 8, "" | replace: '-', '_' -%}
+		{{- '' | append: varName | append: ',' -}}
+{%- endfor -%}
+{%- endcapture -%}
 
 {% for block in section.blocks %}
 	{% assign product = block.settings.selectedProduct %}	
 
     <script>
-      let productToast = Toastify({
+      {% assign varName = product.handle | truncate: 8,"" | replace: '-', '_' %}
+      
+      
+      let _{{ varName }} = Toastify({
         text: "<p>Someone bought <b>{{ product.title | truncate: 25 }}</b></p>",
         duration: 3000,
         destination: "",
@@ -38,12 +48,19 @@
 {% endfor %}
 
 <script>
+  var names = "{{ varNameArray | strip | strip_newlines }}"
+  
+  let arrayNames = names.split(",");
+  arrayNames.pop();
+</script>  
+
+<script>
   let timer = Math.random() * ({{ section.settings.maximumTime }} - {{ section.settings.minimumTime }}) - {{ section.settings.minimumTime }};
              
   function showProductSale(){
     timer = Math.random() * ({{ section.settings.maximumTime }} - {{ section.settings.minimumTime }}) - {{ section.settings.minimumTime }};
           
-    productToast.showToast();
+    eval("_" + arrayNames[Math.floor(Math.random() * (arrayNames.length - 0) - 0)]));
     
     setTimeout(showProductSale, timer);
   }
