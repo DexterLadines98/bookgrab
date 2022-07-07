@@ -205,13 +205,13 @@
           "840b623f-d172-4890-ad0c-57e4803b6809": {
             "type": "sales-product-popup",
             "settings": {
-              "selectedProduct": ""
+              "selectedProduct": "queens-gambit"
             }
           },
           "08506e90-87f0-4ea2-a4da-c614db76bd05": {
             "type": "sales-product-popup",
             "settings": {
-              "selectedProduct": ""
+              "selectedProduct": "trese"
             }
           }
         },
