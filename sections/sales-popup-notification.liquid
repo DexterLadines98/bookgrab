@@ -19,7 +19,7 @@
 	{% assign product = block.settings.selectedProduct %}	
 
     <script>
-      Toastify({
+      let productToast = Toastify({
         text: "<p>Someone bought <b>{{ product.title | truncate: 25 }}</b></p>",
         duration: 3000,
         destination: "",
@@ -32,13 +32,23 @@
         style: { width: "400px", color: "black" },
         stopOnFocus: true,
         escapeMarkup: false
-      }).showToast();
+      });
     </script>
 
 {% endfor %}
 
 <script>
-  let timer = Math.random() * {
+  let timer = Math.random() * ({{ section.settings.maximumTime }} - {{ section.settings.minimumTime }}) - {{ section.settings.minimumTime }};
+             
+  function showProductSale(){
+    timer = Math.random() * ({{ section.settings.maximumTime }} - {{ section.settings.minimumTime }}) - {{ section.settings.minimumTime }};
+          
+    productToast.showToast();
+    
+    setTimeout(showProductSale, timer);
+  }
+  
+  	setTimeout(showProductSale, timer);
 </script>  
 
 {% schema %}
