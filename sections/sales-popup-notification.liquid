@@ -3,11 +3,18 @@
 
 <style>
   div.toastify {
-	display: flex; !important;
+	display: flex !important;
     justify-content: space-between;
     flex-direction: row-reverse;
   }
+  
+  img.toastify-avatar {
+   	width: 7.5rem !important;
+    height: 7.5rem !important;
+  }
 </style>  
+
+
 {% for block in section.blocks %}
 	{% assign product = block.settings.selectedProduct %}	
 
