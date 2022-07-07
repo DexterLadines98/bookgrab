@@ -1,7 +1,7 @@
 .countdown-bar-container{
 	display: flex;
   	width: 100%;
-  	background: yellow;
+  	background: rgb(244, 1, 1);
   	margin: 0;
   	padding: 10px;
   	justify-content: center;
