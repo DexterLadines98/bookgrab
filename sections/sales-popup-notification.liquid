@@ -37,15 +37,33 @@
 
 {% endfor %}
 
+<script>
+  let timer = Math.random() * {
+</script>  
+
 {% schema %}
   {
     "name": "Sales Popup Notification",
-    "settings": [],
+    "settings": [
+				{
+					"type": "number",
+					"id": "maximumTime",
+					"default": 10000,
+					"label": "Max Time"
+				},
+				{
+					"type": "number",
+					"id": "minimumTime",
+					"default": 0,
+					"label": "Max Time"
+				}
+		],
 	"blocks": [
 		{
 			"name": "Product",
 			"type": "sales-product-popup",
 			"settings": [
+				
 				{
 					"type": "product",
 					"id": "selectedProduct",
