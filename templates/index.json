@@ -385,90 +385,137 @@
         "padding_bottom": 36
       }
     },
-    "165709746686ef34d5": {
-      "type": "collapsible-content",
+    "1657163114f13193db": {
+      "type": "faqs",
       "blocks": {
-        "16570974661c607949-0": {
+        "16571631147a9f26df-0": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does shipping take?",
-            "icon": "question_mark",
-            "row_content": "<p>All orders are processed within 2-3 business days. Orders are not shipped or delivered on weekends or holidays.<\/p>",
-            "page": ""
+            "icon": "truck",
+            "row_content": "<p>All orders are processed within 2-3 business days. Orders are not shipped or delivered on weekends or holidays.<\/p>"
           }
         },
-        "16570974661c607949-1": {
+        "16571631147a9f26df-1": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can I cancel my order?",
-            "icon": "question_mark",
-            "row_content": "<p>Yes<\/p>",
-            "page": ""
+            "icon": "return",
+            "row_content": "<p>Yes<\/p>"
           }
         },
-        "16570974661c607949-2": {
+        "16571631147a9f26df-2": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you ship worldwide?",
-            "icon": "question_mark",
-            "row_content": "<p>Unfurtunately, No. We only ship local.<\/p>",
-            "page": ""
+            "icon": "plane",
+            "row_content": "<p>Unfurtunately, No. We only ship local.<\/p>"
           }
         },
-        "16570974661c607949-3": {
+        "16571631147a9f26df-3": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can I request for refund?",
-            "icon": "question_mark",
-            "row_content": "<p>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return. <\/p>",
-            "page": ""
+            "icon": "price_tag",
+            "row_content": "<p>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.<\/p>"
           }
         }
       },
       "block_order": [
-        "16570974661c607949-0",
-        "16570974661c607949-1",
-        "16570974661c607949-2",
-        "16570974661c607949-3"
+        "16571631147a9f26df-0",
+        "16571631147a9f26df-1",
+        "16571631147a9f26df-2",
+        "16571631147a9f26df-3"
       ],
       "settings": {
-        "caption": "Do you have questions?",
+        "caption": "Do you have any questions?",
         "heading": "Frequently Asked Questions",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "accent-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "small",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "open_first_collapsible_row": false
       }
     },
-    "16571165104ba54fe7": {
-      "type": "faq",
+    "1657166194ae8e20a8": {
+      "type": "partners",
       "blocks": {
-        "3616404b-634b-42b3-ac7e-1c2f46c9b1d3": {
-          "type": "faq",
+        "1657166194ec783f06-0": {
+          "type": "partner_image",
           "settings": {
-            "question": "How long does shipping take?",
-            "answer": "<p>I have an answer<\/p>"
+            "image": "shopify:\/\/shop_images\/jt.jpg",
+            "link": ""
           }
         },
-        "83b4215e-4ae2-4ca0-8e84-64c097d1e3a8": {
-          "type": "faq",
+        "1657166194ec783f06-1": {
+          "type": "partner_image",
           "settings": {
-            "question": "Do you have a question?",
-            "answer": "<p>I have an answer<\/p>"
+            "image": "shopify:\/\/shop_images\/lalamove.png",
+            "link": ""
+          }
+        },
+        "1657166194ec783f06-2": {
+          "type": "partner_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ninjavan.png",
+            "link": ""
+          }
+        },
+        "1657166194ec783f06-3": {
+          "type": "partner_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lbc.png",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "3616404b-634b-42b3-ac7e-1c2f46c9b1d3",
-        "83b4215e-4ae2-4ca0-8e84-64c097d1e3a8"
+        "1657166194ec783f06-0",
+        "1657166194ec783f06-1",
+        "1657166194ec783f06-2",
+        "1657166194ec783f06-3"
       ],
       "settings": {
+        "title": "Partner's List"
+      }
+    },
+    "1657171127e2ec8f70": {
+      "type": "testimonials",
+      "blocks": {
+        "165717112727718467-0": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Products is good. I really liked it.. 5 stars for me<\/p>",
+            "author": "Vanessa",
+            "position": "Customer",
+            "avatar": "shopify:\/\/shop_images\/user.png"
+          }
+        },
+        "165717112727718467-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "position": ""
+          }
+        },
+        "165717112727718467-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "position": ""
+          }
+        }
+      },
+      "block_order": [
+        "165717112727718467-0",
+        "165717112727718467-1",
+        "165717112727718467-2"
+      ],
+      "settings": {
+        "title": "Testimonials"
       }
     }
   },
@@ -483,7 +530,8 @@
     "165709278397627134",
     "165709166648963ae0",
     "165709324904eb8e08",
-    "165709746686ef34d5",
-    "16571165104ba54fe7"
+    "1657163114f13193db",
+    "1657166194ae8e20a8",
+    "1657171127e2ec8f70"
   ]
 }
