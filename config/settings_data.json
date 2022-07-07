@@ -192,6 +192,22 @@
           "title": "SALE! SALE! SALE!",
           "enable_countdown": true
         }
+      },
+      "sales-popup-notification": {
+        "type": "sales-popup-notification",
+        "blocks": {
+          "ba36d94f-e0ea-4be1-b895-08136f6f1ea0": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "bts-icons-of-kpop"
+            }
+          }
+        },
+        "block_order": [
+          "ba36d94f-e0ea-4be1-b895-08136f6f1ea0"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
