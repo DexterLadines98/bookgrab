@@ -60,7 +60,7 @@
   function showProductSale(){
     timer = Math.random() * ({{ section.settings.maximumTime }} - {{ section.settings.minimumTime }}) - {{ section.settings.minimumTime }};
           
-    eval("_" + arrayNames[Math.floor(Math.random() * (arrayNames.length - 0) - 0)]));
+    eval("_" + arrayNames[Math.floor(Math.random() * (arrayNames.length - 0) - 0)] + ".showToast()");
     
     setTimeout(showProductSale, timer);
   }
