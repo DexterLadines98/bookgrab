@@ -1,7 +1,20 @@
 {% schema %}
   {
     "name": "Sales Popup Notification",
-    "settings": []
+    "settings": [],
+	"blocks": [
+		{
+			"name": "Product",
+			"type": "sales-product-popup",
+			"settings": [
+				{
+					"type": "product",
+					"id": "selectedProduct",
+					"label": "Product"
+				}
+			]
+		}
+	]
   }
 {% endschema %}
 
