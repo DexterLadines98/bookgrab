@@ -1,0 +1,17 @@
+.partner-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.partner-link {
+    max-width: 25%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50% ;
+}
