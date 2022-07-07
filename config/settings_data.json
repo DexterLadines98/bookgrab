@@ -201,10 +201,24 @@
             "settings": {
               "selectedProduct": "bts-icons-of-kpop"
             }
+          },
+          "840b623f-d172-4890-ad0c-57e4803b6809": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": ""
+            }
+          },
+          "08506e90-87f0-4ea2-a4da-c614db76bd05": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": ""
+            }
           }
         },
         "block_order": [
-          "ba36d94f-e0ea-4be1-b895-08136f6f1ea0"
+          "ba36d94f-e0ea-4be1-b895-08136f6f1ea0",
+          "840b623f-d172-4890-ad0c-57e4803b6809",
+          "08506e90-87f0-4ea2-a4da-c614db76bd05"
         ],
         "settings": {
         }
