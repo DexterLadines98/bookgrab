@@ -1,22 +1,27 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
-<script>
-  Toastify({
-    text: "<p>Please buy this item</p>",
-    duration: 3000,
-    destination: "",
-    newWindow: true,
-    avatar: "",
-    close: true,
-    gravity: "bottom",
-    position: "left",
-    backgroundColor: "white",
-    style: { width: "400px", color: "black" },
-    stopOnFocus: true,
-    escapeMarkup: false
-  }).showToast();
-</script>
+{% for block in section.blocks %}
+	{% assign product = block.settings.selectedProduct %}	
+
+    <script>
+      Toastify({
+        text: "<p>Someone bought <b>{{ product.title | truncate: 25 }}</b></p>",
+        duration: 3000,
+        destination: "",
+        newWindow: true,
+        avatar: "",
+        close: true,
+        gravity: "bottom",
+        position: "left",
+        backgroundColor: "white",
+        style: { width: "400px", color: "black" },
+        stopOnFocus: true,
+        escapeMarkup: false
+      }).showToast();
+    </script>
+
+{% endfor %}
 
 {% schema %}
   {
